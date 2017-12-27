@@ -1,0 +1,104 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#reg_z{
+    width: 100%;
+    height: 100%;
+    .reg_z_head{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100px;
+        padding: 0 60px;
+        line-height: 100px;
+        text-align: center;
+        background: #CD1317;
+        color: aliceblue;
+        .icon_left{
+            position: absolute;
+            left: 0;
+            display: inline-block;
+            width: 60px;
+            height: 100px;
+            text-align: center;
+            font-size: 50px;
+            line-height: 100px;
+        }
+        .icon_right {
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: inline-block;
+            width: 60px;
+            height: 100px;
+            text-align: center;
+            font-size: 50px;
+            line-height: 100px;
+        }
+
+        h2{
+            font-size: 40px;
+            line-height: 100px;
+            color: aliceblue;
+        }
+    }
+    .reg_z_main{
+        width: 100%;
+        height: 900px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0 40px;
+        background: #F8F8F8;
+        div{
+            width: 100%;
+            height: 80px;
+            margin-bottom: 50px;
+            position: relative;
+            Icon{
+                display: inline-block;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            Input{
+                width: 100%;
+                height: 80px;
+                font-size: 30px;
+                padding-left: 60px;
+            }
+        }
+        .read{
+            font-size: 25px;
+            line-height: 80px;
+        }
+        .register{
+            width: 100%;
+            height: 80px;
+            Button{
+                width: 100%;
+                height: 80px;
+                font-size: 30px;
+            }
+        }
+    }
+    .beizhu{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+.ant-message{
+    span{
+        font-size: 25px;
+    }       
+}
+.example {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    margin: 20px 0;
+}

@@ -1,0 +1,116 @@
+html,body,#app{
+    height: 100%;
+    width: 100%;
+}
+#server_cts{
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    font-size:30px;
+        
+    .header{
+        height: 90px;
+        position: relative;
+        border-bottom: 1px solid #eee;
+        h3{
+            i{
+                float: left;
+                margin-top:30px;
+                margin-left:20px;
+            }
+            text-align: center;
+            height: 90px;
+            line-height: 90px;
+            background: #fcfbfb;
+        }
+    }
+    .footer_cts{
+        flex: 1;
+        overflow-x: hidden;
+       >h4{
+           height: 90px;
+           line-height: 90px;
+           padding-left:30px;
+       }
+       .guess{
+        //    height: 700px;
+           background: #eee;
+            >h4{
+                height: 50px;
+                line-height: 50px;
+                font-size: 26px;
+                padding:0 30px;
+            }
+            @extend %r;
+       }
+       .SE{
+           background: #eee;
+           padding-top:50px;
+            @extend %r;
+       }
+       .Official_Accounts{
+           padding-top:50px;
+            >h4{
+                height: 50px;
+                line-height: 50px;
+                font-size: 26px;
+                padding:0 30px;
+                background: #eee;
+            }
+            >h5{
+                padding:20px 30px;
+                i{
+                    width: 100px;
+                    height: 100px;
+                    background: #ccc;
+                }
+                >span{
+                    margin-left:70px;
+                    vertical-align: center;
+                }
+            }
+       }
+    }
+
+    .Input{
+        height: 100px;
+        padding:0 30px;
+        input{
+            width: 500px;
+            height: 80px;
+            border-radius: 10px;
+            border:none;
+            border:1px solid #333;
+        }
+        button{
+            width: 150px;
+            margin-left:30px;
+            height: 70px;
+            border:none;
+            border-radius: 7px;
+            color: #fff;
+            background: rgb(248, 50, 83)
+            
+        }
+    }
+
+}
+
+%r {
+     ul{
+        background: #fff;
+        li{
+            height: 90px;
+            line-height: 90px;
+            padding:0 30px;
+            border-bottom: 1px solid #eee;
+            i{
+                float: right;
+                padding-top:30px;
+            }
+        }
+        a{
+            color:#333;
+        }
+    }
+}

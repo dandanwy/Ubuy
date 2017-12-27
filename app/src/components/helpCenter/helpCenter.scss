@@ -1,0 +1,67 @@
+html,body,#app{
+    height: 100%;
+    width: 100%;
+}
+#helpCenter_cts{
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    font-size:30px;
+        
+    .header{
+        height: 90px;
+        position: relative;
+        border-bottom: 1px solid #eee;
+        h3{
+            i{
+                float: left;
+                margin-top:30px;
+                margin-left:20px;
+            }
+            text-align: center;
+            height: 90px;
+            line-height: 90px;
+            background: #fcfbfb;
+        }
+    }
+    .footer_cts{
+        flex: 1;
+        overflow-x: hidden;
+        ul{
+            li{
+                height: 80px;
+                line-height: 80px;
+                padding: 0 30px;
+                border-bottom: 1px solid #ccc;
+                span{
+                    float: left;
+                }
+                i{
+                    float: right;
+                    padding-top:30px;
+                }
+            }
+        }
+    }
+    .helpItem_cts{
+        flex: 1;
+        overflow-x: hidden;
+        padding:20px 40px;
+        h2{
+            height: 80px;
+            line-height: 80px;
+            font-size: 36px;
+            text-align: center;
+        }
+        h3{
+            // font-size: 26px;
+            height: 50px;
+            line-height: 50px;
+            margin-top:10px;
+            
+        }
+        ul{
+            margin:10px 0;
+        }
+    }
+}

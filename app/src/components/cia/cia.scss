@@ -1,0 +1,16 @@
+#app{height: 100%;}
+#box{height: 100%;width: 100%;}
+.ant-layout{width: 100%;height: 100%;display:flex;flex-direction: column;}
+.header_yj{
+	background-color: #fff;width: 100%;padding: 0;display:flex;height: 74px;padding:5px 0;
+	.title_yj{width: 100%;display:flex;div{float:left;}}
+	.back,.right{width: 10%;font-size: 32px;text-align:center;}
+	.cia_title{width: 80%;text-align:center;font-size: 28px;}
+}
+.main_yj{
+	width: 100%;div{margin: 0;padding: 0;}
+	.cia_box{width: 100%;img{width: 100%;margin: 0;}}
+}
+.footer_yj{
+	width: 100%;img{width: 100%;}
+}

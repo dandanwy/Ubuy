@@ -1,0 +1,169 @@
+html,body,#app{
+    height: 100%;
+    width: 100%;
+}
+#myPage_cts{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    font-size:30px;
+    a{
+        color:#333;
+    }
+    .myPageTop{
+        flex: 1;
+        overflow-x: hidden;
+        .header_cts{
+            height: 280px;
+            width: 100%;
+            // background: #58bc58;
+            background: #EE3A21;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            .notLogin{
+                background-color:#BC2D03;
+                height: 88px;
+                width: 200px;
+                float: left;
+                text-align: center;
+                line-height: 88px;
+                color:#fff;
+                border-radius: 25px;
+            }  
+            .alreadyLogged{
+                height: 280px;
+                width: 100%;
+                display: flex;
+                .TX{
+                    width: 130px;
+                    height: 130px;   
+                    border:2px solid #fff;
+                    border-radius: 50%;
+                    margin: 80px;
+                    .alreadyUser {
+                        display: inline-block;
+                        font-size: 130px;
+                        color: #fff;
+                        position: absolute;
+                        top: 75px;
+                        left: 80px;
+                    }
+                } 
+                .usermsg{
+                    flex: 1;
+                    position: relative;
+                    color:#fff;
+                    h3{
+                        margin-top:80px;
+                        color:#fff;
+                        margin-bottom: 20px;
+                    }
+                    >.le{
+                        font-size:24px;
+                        padding:10px 50px;
+                        border-radius: 40px;
+                        background: #BF2B03;
+                    }
+                    span:last-child{
+                        position: absolute;right: 50px;bottom: 0;
+                    }
+                }
+            }
+            
+        }
+        .main_cts{
+            overflow-x: hidden;
+            flex: 1;
+            display: flex;
+            flex-direction:column;
+            .myorder{
+                border-bottom:1px solid #000;
+            }
+            .myorder,.manage_shoe{
+                height: 100px;
+                padding:0 30px;
+                display: flex;
+                justify-content: space-between;
+                align-items:space-between;
+                span,i{
+                    display: block;
+                    line-height: 100px;
+                }
+            }
+            .msg{
+                height: 180px;
+                display: flex;
+                justify-content: space-between;
+                align-items:space-between;
+                .Payment{
+                    padding-top:50px;
+                    width: 33.33%;
+                    text-align: center;
+                    i,span{
+                        display: block;
+                    }
+                }
+            }
+            .wallet{
+                background-color:#F7F7F7;
+                padding-top:30px;
+                padding-bottom: 30px;
+                >div{
+                    height: 240px;
+                    background-color:#fff;
+                    display: flex;
+                    flex-direction:column;
+                    h3{
+                        height: 100px;
+                        line-height: 100px;
+                        padding-left:40px;
+                        border-bottom: 1px solid #ccc;
+                    }
+                    >ul{
+                        flex: 1;
+                        display: flex;
+                        // justify-content: space-between;
+                        li{
+                            width: 33.3%;
+                            padding-top:30px;
+                            i,span{
+                                display: block;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+            .fun{
+                    background:#F7F7F7;
+                    height: 400px;
+                ul{
+                    display: flex;
+                    flex-wrap:wrap;
+                    justify-content: space-between;
+                    align-items:space-between;
+                    li{
+                        a{
+                            color:#333;
+                        }
+                        height: 150px;
+                        width: 25%;
+                        padding-top:30px;
+                        margin-top:30px;
+                        background: #fff;
+                    }
+                    i,span{
+                        display: block;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+.ant-message {
+    span {
+        font-size: 25px;
+    }
+}

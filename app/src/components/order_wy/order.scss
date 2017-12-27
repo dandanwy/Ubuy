@@ -1,0 +1,250 @@
+html,body{
+    height: 100%;
+    background: #eee;
+}
+#app{
+    height: 100%;
+}
+.box_order_wy{
+    height: 100%;  
+    font-size: 32px; 
+    display: flex;
+    flex-direction: column;
+    .header_order{
+        height: 88px;
+        background: #f8f8f8;
+        color: #333;
+        display: flex;
+        line-height: 88px;
+        border-bottom: 1px solid #ddd;
+        .header_order_l{
+            font-size: 42px;
+            line-height: 88px;
+            width: 100px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        h3{
+            flex:1;              
+            text-align: center;
+            margin-right: 90px;
+        }
+    } 
+    .main_order{
+        flex: 1;
+        overflow-y: auto;
+        .address{
+            background: #fff;
+            margin-top: 10px;
+            padding: 0 20px;
+            p{
+                color: #333;
+                font-size: 30px;
+                border-bottom: 1px solid #ddd;
+                .address_icon{
+                    margin: 0 20px 0 5px;
+                }
+                height: 64px;
+                line-height: 64px;
+            }
+            .address_add{
+                font-size: 28px;
+                overflow: hidden;
+                height: 80px;
+                line-height: 80px;
+                span{
+                    float: left;
+                }
+                .address_add_icon{
+                    float: right;
+                    height: 80px;
+                    line-height: 80px;
+                }
+            }
+        }
+        .settime{
+            background: #fff;
+            margin-top: 10px;
+            padding: 0 20px;
+            padding-bottom: 20px;
+            p{
+                color: #333;
+                font-size: 30px;
+                border-bottom: 1px solid #ddd;
+                .calendar{
+                    margin: 0 20px 0 5px;
+                }
+                height: 64px;
+                line-height: 64px;
+            }
+            .timesel{
+                ul{
+                    li{
+                        border:1px solid #ddd;
+                        font-size: 26px;
+                        height: 70px;
+                        line-height: 70px;
+                        padding:0 18px;
+                        color: #666;
+                    }
+                }
+            }
+        }
+        .giftItem{
+            background: #fff;
+            margin-top: 10px;
+            padding: 0 20px;
+            // padding-bottom: 20px;
+            p{
+                color: #333;
+                font-size: 30px;
+                border-bottom: 1px solid #ddd;
+                .gift{
+                    margin: 0 20px 0 5px;
+                }
+                height: 64px;
+                line-height: 64px;
+            }
+            .giftitem{
+                .giftcol1,.giftcol2{
+                    height: 90px;
+                    line-height: 90px;
+                    .gifticon{
+                        float: right;
+                        height: 90px;
+                        line-height: 90px;
+                    }
+                }
+                .giftcol1{
+                    border-bottom: 1px solid #ccc;
+                }
+            }
+        }
+        .ordergoods{
+            background: #fff;
+            margin-top: 10px;
+            padding: 0 20px;
+            padding-bottom: 20px;
+            p{
+                color: #333;
+                font-size: 30px;
+                border-bottom: 1px solid #ddd;
+                .exception{
+                    margin: 0 20px 0 5px;
+                }
+                height: 64px;
+                line-height: 64px;
+            }
+            ul{
+                li{
+                    padding-top: 14px;
+                    .goodsinfo{
+                        overflow: hidden;
+                        width: 100%;
+                        .goodsinfo_l{
+                            width: 30%;
+                            float: left;
+                            border:1px solid #ccc;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .goodsinfo_r{
+                            width: 70%;
+                            float: right;
+                            font-size: 28px;
+                            padding: 0 14px;
+                            .title{
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                color: #333;
+                                padding: 2px 0;
+                            }
+                            .colorsize{
+                                overflow: hidden;
+                                padding: 2px 0;
+                                .color{
+                                    float: left;
+                                }
+                                .size{
+                                    float: left;
+                                    margin-left: 40px;
+                                }
+                            }
+                            .pricenum{
+                                overflow: hidden;
+                                padding: 2px 0;
+                                .price{
+                                    float: left;
+                                }
+                                .num{
+                                    float: right;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .settlement{
+            background: #fff;
+            margin-top: 10px;
+            padding: 0 20px;
+            padding-bottom: 20px;
+            p{
+                color: #333;
+                font-size: 30px;
+                border-bottom: 1px solid #ddd;
+                .pie-chart{
+                    margin: 0 20px 0 5px;
+                    color: #555;
+                }
+                height: 64px;
+                line-height: 64px;
+            }
+            div{
+                font-size: 28px;
+                .totlenum,.totleprice,.freight,.saveprice{
+                    float: right;
+                    .spare{
+                        color: red;
+                    }
+                }
+            }
+        }
+        .credits{
+            background: #fff;
+            margin-top: 10px;
+            padding: 0 20px;
+            padding-bottom: 20px;
+            height: 60px;
+            line-height: 60px;
+            .creditsnum{
+                float: right;
+            }
+        }
+    }
+    .footer_order{
+        height: 90px;
+        line-height: 90px;
+        background: #ddd;
+        overflow: hidden;
+        .footer_order_l{
+            float: left;
+            padding-left: 30px;
+            b{
+                font-weight: normal;
+                color: red;
+            }
+        }
+        .footer_order_r{
+            float: right;
+            background: #f30;
+            color: #fff;
+            text-align: center;
+            width: 220px;
+        }
+    }
+}

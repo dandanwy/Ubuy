@@ -1,0 +1,206 @@
+body,h1,h2,h3,h4,p,ul,li,ol,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+html,body{
+    font-style: '微软雅黑';
+    font-size: 0.4rem;
+    height:100%;
+
+}
+.detailHeader{
+    padding: 0;
+    background:transparent;
+    border:1px solid transparent;box-shadow: 2px 2px 2px transparent;
+    overflow: hidden;
+    z-index:10;
+    height: 0.6rem;
+    padding-left: 0.2rem;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    .icon{
+        margin-right: 0.12rem;
+        &:nth-child(1){
+            float: left;
+        }
+        &:nth-child(2),&:nth-child(3){
+            float: right;
+        }
+        i{
+          width: 0.44rem;
+          height: 0.44rem;
+
+            border-radius:50%;
+            background-color: #999999;
+            line-height: 0.44rem;
+            text-align: center;
+            color:#fff;
+            font-size: 0.28rem;
+           
+        }
+    }
+        
+    }
+.detailContent{
+    top: 0;background: #ddd;
+    .detailBody{
+        min-height: 10rem;
+        div{
+            padding: 0 0.12rem;background: #fff;
+        }
+        .banner{
+            overflow:hidden;
+            img{
+                width: 100%;
+            }
+        }
+        .introduce{
+            font-size: 0.16rem;text-align: left;
+        }
+        .fenlei{
+            font-size: 0.20rem;color:#E32E32;
+        }
+        .price{
+            font-size: 0.30rem;color:red;
+            span{
+                font-size: 0.18rem;color:#ccc;
+            }
+            .pr{
+                float: right;
+            }
+        }
+        .choose{
+            font-size: 0.20rem;font-weight: bold;height: 0.6rem;line-height: 0.6rem;
+            .thscolor{
+                margin-left: 0.3rem;
+            }
+            .chooseSize{
+                float: right;
+            }
+
+        }
+        .brand{
+            padding: 0.06rem 0;
+                div{
+                    font-size: 0.16rem;
+                    
+                        
+                    color:#ddd;
+                    span{
+                        color:#191D21;
+                        margin-left: 0.3rem;
+
+                    }
+                }
+            }
+        .ifLike{
+            .likeTop{
+
+            font-size: 0.18rem;padding: 0.06rem 0;
+            }
+            .likeBody{
+                min-height:0.4rem;
+            }
+
+        }
+        .help{
+                
+                i{
+                    font-size: 0.20rem;
+                    width: 0.22rem;
+                    height: 0.22rem;
+                    background: #5F86EB;
+                    color:#fff;
+                }
+            span{
+                font-size: 0.16rem;margin-left: 0.2rem;
+            }
+        }
+        .moreDetail{
+            text-align: center;
+            font-size: 0.16rem;
+            background: #EFEFEF;
+            padding: 0.06rem 0;
+        }
+        .abc{
+            padding-left: 45%;display:none;
+            div{
+                background: transparent;
+            }
+        }
+    }
+
+}
+
+.detailFooter{
+    width: 100%;
+    height: 0.8rem;
+    background: #fff;
+    position:fixed;
+    bottom: 0;
+    line-height: 0.8rem;
+    padding: 0;
+    text-align: center;
+    font-size: 0.22rem;
+    div{
+        float: left;
+    }
+
+    .left{
+        font-size: 0.6rem;
+        width: 25%;
+        position:relative;
+        .carCount{
+            color:#fff;font-size: 0.2rem;font-weight: bold;
+            position:absolute;background: red;
+            border-radius:50%;
+            padding: 0.06rem;
+            
+            line-height: 1;
+            text-align: center;
+            left: 54%;transform:translate(-50%,0);
+        }
+    }
+    .center{
+        background: #f60;
+        width: 40%;
+        color:#fff;
+    }
+    .right{
+        width:35%;background: #FF0000;color:#fff;
+    }
+}
+.ant-modal-content{
+    position:absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+
+    .ant-radio-button-wrapper{
+        font-size: 0.12rem;
+        width: 0.6rem;
+        height: 0.4rem;
+    }
+}
+.ant-modal-header {
+    height: 0.3rem;
+    .ant-modal-title{
+        font-size: 0.2rem;font-weight: bold;color:#ccc;
+    }
+}
+.ant-btn{
+    height: 0.5rem;font-size:0.2rem;padding: 0 0.1rem;
+}

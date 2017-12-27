@@ -1,0 +1,42 @@
+.goodslist{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom:20px;
+    tr{
+        width: 100%;
+        
+        th{
+            font-weight: bold;
+            padding: 8px 0;
+            font-size: 16px;
+            // width: 8%;
+            text-align: center;
+        }
+        td{ 
+            padding: 8px 0 ;
+            font-size: 16px;
+            // width: 8%;
+            text-align: center;
+        
+            
+        }
+        .operation{
+            width: 12%;
+             .edit,.del {
+                 margin: 0 18px;
+             }
+        }
+    }
+}
+.listHeader{
+    float:right;
+    margin-top:4px;
+    margin-right:10px;
+}
+
+.ant-table-pagination{
+    margin-right: 10px;
+    margin-bottom:20px;
+}

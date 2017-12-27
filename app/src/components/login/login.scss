@@ -1,0 +1,129 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#login_z{
+    // display: flex;
+    width: 100%;
+    height: 100%;
+    .login_z_head{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        padding: 0 60px;
+        background: #CD1317;
+        // Link{
+        //     color: #F8F8F8;
+        // }
+        h2{
+            text-align: center;
+            line-height: 100px;
+            font-size: 40px;
+            font-weight: normal;
+            color: aliceblue;
+        }
+        .icon_right {
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: inline-block;
+            width: 60px;
+            height: 100px;
+            text-align: center;
+            font-size: 50px;
+            line-height: 100px;
+            color: #F8F8F8;
+        }
+    }
+    p{
+        font-size: 30px;
+        text-align: center;
+        line-height: 60px;
+        font-family: '微软雅黑';
+    }
+    .login_img{
+        display: flex;
+        flex: 1;
+        width: 100%;
+        height: 300px;
+        img{
+            width: 100%;
+        }
+    }
+    .login_z_main{
+        height: 500px;
+        padding: 20px;
+        // background: #F8F8F8;
+        .user{
+            width: 100%;
+            height: 76px;
+            margin-bottom: 30px;
+            // line-height: 100px;
+            input{
+                width: 100%;
+                height: 70px;
+                line-height: 70px;
+                font-size: 30px;
+            }
+        }
+        .psd{
+            width: 100%;
+            height: 76px;
+            margin-bottom: 30px;
+            input{
+                width: 100%;
+                height: 70px;
+                line-height: 70px;
+                font-size: 30px;
+            }
+        }
+        .savePsd{
+            margin-top: 10px;
+            font-size: 30px;
+            .ant-checkbox-inner{
+                width: 30px;
+                height: 30px;
+            }
+        }
+        a{
+            color: #cccccc;
+            font-size: 30px;
+        }
+        .loginIn{
+            width: 100%;
+            height: 76px;
+            Button{
+                width: 100%;
+                height: 70px;
+                line-height: 70px;
+                border: 0px;
+                font-size: 30px;
+                // color: #CD1317;
+            }
+        }
+    }
+    .beizhu{
+    }
+}
+.example {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    margin: 20px 0;
+}
+.animate-route {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeRoute;
+}
+
+@keyframes fadeRoute {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,153 @@
+body,html {height: 100%;background-color: #ECECEC;}
+#app{height:100%;position:relative;}
+#box{
+    height: 100%;display:flex;flex-direction: column;
+    .header{
+        height: 80px;;width: 100%;background-color: #fff;
+        .ul_h{
+            display:flex;
+            padding:10px;
+            li{float:left;width:70px;height:60px;text-align:center;line-height: 40px;}
+            li:nth-child(2){
+                flex:1;border-radius:5px;
+                
+                background-color: #ECECEC;
+                span{float:left;display:inline-block;width:50px;height:60px;}
+                input{border:0;height:60px;width:88%;float:left;background:#ECECEC;font-size: 20px;}
+            }
+        }
+    }
+    .homemain{
+        flex:1;width: 100%;overflow:hidden;overflow-y:auto;background-color: #fff;
+        div{box-sizing:border-box;}
+        .autopic{
+            height: 380px;width: 100%;
+
+            .ant-carousel .slick-slide{width: 100%;text-align: center;height: 380px;
+                overflow: hidden;
+                img{width: 100%;height: 380px;}
+                }
+        }
+        .newflash{
+            height: 60px;width: 100%;display:flex;border:1px solid #000;line-height: 60px;text-align:center;
+            .newfl{float:left;width: 30%;border-right:1px solid #000;color:#f00;font-size: 28px;}
+            .newfr{
+                float:right;width: 70%;
+                ul{
+                    overflow:hidden;height: 60px;
+                    li{height: 60px;font-size: 28px;}
+                }
+            }
+        }
+        .newshop{
+            height: 250px;width: 100%;display:flex; flex-wrap: wrap;
+            div{float:left;width: 50%;height: 125px;text-align:center;padding:20px 0;font-size: 24px;}
+        }
+        .buytime{
+            height: 300px;width: 100%;margin-bottom:20px;
+            .buytimet{
+                height: 62px;width: 100%;display:flex;
+                .buyt_head{
+                    width: 100%;padding:0 10px;font-size: 24px;
+                    span{display:inline-block;height: 62px;line-height: 62px;}
+                }
+                .buyt_headl{width: 80%;}
+                .buyt_headr{width: 20%;}
+            }
+            .buytimeb{
+                height: 230px;
+                 .buyt_main{
+                    width: 100%;overflow-x:auto;font-size: 22px;
+                    .buytm{
+                        height: 230px;width: 300%;
+                        li{float:left;width: 230px;}
+                        .buytmpic{width: 100%;height: 160px;padding:20px;img{width: 100%;}}
+                        span{padding:0 20px;}
+                        .price{color:#f00;}
+                        .Oprice{color:#ccc;text-decoration: line-through;}
+                    }
+                }
+            }
+        }
+        .brandnews{
+            height: 430px;width: 100%;
+            .brandnewst{height:52px;width: 100%;padding:0 20px;line-height: 52px;font-size: 26px;text-align: center;}
+            ul{
+                width: 100%;
+                li{float:left;width: 25%;}
+            }
+        }
+        .weekbest{
+           width: 100%;background-color: #F7F7F7;
+            .weekt{ height: 60px;width: 100%;text-align:center;}
+            .weekmain{
+               width: 100%;
+                .weekmainul{width: 100%; display:flex;height: 250px; li{height:250px;float:left;width: 25%;img{height: 100%;width: 100%;}}}
+               
+            }
+        }
+        .newsgood{
+            width: 100%;background-color: #F7F7F7;
+            .newsgt{height: 60px;width: 100%;text-align:center;}
+            .newsgmain{
+                width: 100%;
+                .newsgul{width: 100%;display:flex; flex-wrap: wrap;
+                    li{height:250px;float:left;width: 25%;img{height: 100%;width: 100%;}}
+                    li:nth-child(5),li:nth-child(6){width: 50%;}
+                }
+            }
+            .newsgb{width: 100%;img{height: 200px;width: 100%;}}
+        }
+        .manmust{
+            width: 100%;background-color: #f7f7f7;
+            .manmt{height: 60px;width: 100%;text-align:center;}
+            .manmm{
+                width: 100%;
+                .manmmul{width: 100%;display:flex;flex-wrap:wrap;
+                    li{height: 250px;float:left;width: 25%;img{height: 100%;width: 100%;}}
+                }
+            }
+        }
+        .reshoe{width: 100%;height: 200px;img{width: 100%;height: 100%;}}
+        .spring{
+            width: 100%;background-color: #f7f7f7;
+            .springt{height: 60px;width: 100%;text-align:center;}
+            .springm{
+                width: 100%;
+                .springmul{width: 100%;display:flex;flex-wrap:wrap;
+                    li{height: 250px;width: 25%;img{width: 100%;height: 100%;}}
+                    li:nth-child(5),li:nth-child(6){width: 50%;height: 70%;}
+                }
+            }
+        }
+        .fashion{
+            width: 100%;background-color: #f7f7f7;
+            .fashiont{height: 60px;width: 100%;text-align:center;}
+            .fashionm{width: 100%;
+                .fashionmul{width: 100%;display:flex;
+                    li{float:left;height: 250px;width: 33.3%;img{height: 100%;width: 100%;}}
+                }
+                
+            }
+        }
+        .guess{
+            width: 100%;
+            .guesst{height: 60px;text-align:center;color:#f00;line-height: 60px;font-size: 30px;}
+            .guessm{width: 100%;display:flex;flex-wrap:wrap;
+                .guessmul{width: 100%;}
+                li{float:left;width: 50%;padding:20px;box-sizing:border-box;border:1px solid #dfdfdf;
+                    img{width: 90%;}
+                    .name{font-size: 20px;}
+                    .price{color:#f00;padding-right:60px;font-size: 24px;}
+                    .Oprice{color:#bbb;text-decoration:line-through;font-size: 20px;}
+                }
+            }
+        }
+
+    }
+    
+    .footer{height: 70px;width: 100%;display:flex;
+        div{width: 25%;text-align:center;line-height: 70px;font-size: 50px;font-weight: bold;}
+    }
+   
+} 
